@@ -14,7 +14,7 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/spring-cloud-01
     username: root
-    password: 123456
+    password: 1234
     dbcp2:
       min-idle: 5
       initial-size: 5
@@ -35,8 +35,8 @@ eureka:
     prefer-ip-address: true
  
 info:
-  app.name: atguigu-microservicecloud-springcloudconfig01
-  company.name: www.atguigu.com
+  app.name: springcloud
+  company.name: www.acker.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -51,7 +51,7 @@ spring:
     driver-class-name: org.gjt.mm.mysql.Driver
     url: jdbc:mysql://localhost:3306/spring-cloud-01
     username: root
-    password: 123456
+    password: 1234
     dbcp2:
       min-idle: 5
       initial-size: 5
